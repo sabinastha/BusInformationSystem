@@ -1,0 +1,22 @@
+.header-top , .header , .head{
+	padding:2em 0px;
+}
+.header  {
+  
+    box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
+   }
+
+ 
+ ul.navig li{
+ 	display: inline-block
+ }
+ ul.navig li a.active{
+ 	color:#999;
+ }
+ ul.navig li a{
+ 	font-size:1.3em;
+ 	color:#3d1a1b;
+ 	text-decoration: none;
+ 	padding-right: 30px;
+ 	color:black;
+ }

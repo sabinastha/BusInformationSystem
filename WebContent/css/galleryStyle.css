@@ -1,0 +1,25 @@
+.col-md-3{
+	padding: 5px;
+}
+img{
+	border-radius: 5px;
+	margin-top: 5px;
+
+}
+ #myModal .modal-dialog  {
+ 		width: 40%;
+            }
+#myModal {
+    background: rgba(255,255,255,0.9);
+}
+.modal-content{
+    background: transparent;
+}
+@media (min-width: 992px){
+	.modalImage{
+		min-width: 500px;
+		min-height: 5s00px;
+	}
+
+} 
+}

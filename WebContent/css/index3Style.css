@@ -1,0 +1,139 @@
+	body{
+		color:#3d1a1b;
+		font-family: 'RobotoSlab-Regular';
+	}
+
+/*The navbar design is all here*/
+	.search-bar{
+		padding-top: 12px;
+	}
+
+	.header-top{
+		padding:2em 0px;
+	}
+	.header{
+		box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11) ;
+	}
+	.navbar-default .navbar-nav>li>a{
+		color:#3d1a1b;
+	}
+	.navbar-default{
+		background:transparent;
+		
+	}
+	ul.navig li{
+	 	display: inline-block;
+	 	margin-left:1em;
+	 }
+	 ul.navig li a.active{
+	 	color:#999;
+	 }
+
+	 ul.navig li a{
+	 	font-size:1.3em;
+	 	text-decoration: none;
+	 	padding-right: 30px;
+	 }
+	 .search-bar input[type="text"] {
+	    padding: 8px 45px 8px 8px;
+	    border: none;
+	    background: none;
+	    border:0px;
+	    position:relative;
+	    width: 280px;
+	    z-index: 0;
+	    -webkit-appearance: none;
+	    color: rgba(0, 0, 0, 0.74);
+	    font-size: 1.1em;
+	    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+	    font-family: 'Raleway-Regular';
+	}
+	.search-bar{
+		position: relative;
+		margin-right: -5%;
+	}
+	.search-bar input[type="submit"] {
+	    background: url(../images/search.png)no-repeat 0px 0px;
+	    outline: none;
+	    -webkit-appearance: none;
+	    border:0px;
+	    margin-left: -101%;
+	    z-index: 10;
+	    vertical-align: -webkit-baseline-middle;
+	    width: 24px;
+	    height: 24px;
+	}
+	@media (min-width: 768px){
+	.navbar-nav>li>a {
+	    padding-top: 1.2em;
+	    padding-bottom: 0px;
+	    padding-left: 1em;
+	}
+	.search-bar{
+		right: 0;
+	}
+
+	}
+	#myNavbar{
+		margin-top: -4%;
+		margin-bottom: 2%;
+		margin-left:-5%;
+
+	}
+
+	#navButton{
+		margin-top:-7%;
+		margin-bottom: 2%;
+	}
+
+
+/*MAKE IT COLLLAPSE SOON ENOUGH*/
+		@media (max-width: 990px) {
+		.navbar-header {
+		    float: none;
+		}
+		.navbar-toggle {
+		    display: block;
+		}
+		.navbar-collapse {
+		    border-top: 1px solid transparent;
+		    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+		}
+		/*.navbar-collapse.collapse {
+		    display: none!important;
+		}*/
+		.navbar-nav {
+		    float: none!important;
+		    margin: 7.5px -15px;
+		}
+		.navbar-nav>li {
+		    float: none;
+		}
+		.navbar-nav>li>a {
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		}
+		}
+
+
+/*The banner design is here ....*/
+
+	#bannerText{
+			position:static;
+			margin-top: -30%;
+			background: black;
+			opacity: 1;
+
+
+		}
+	.thumbnail .caption{
+			border:none;
+			background-color: red;
+						
+		}
+  /*text of banner design*/
+  	#bannerText h2{
+  		font-size: 15px;
+  	}
+
+	
