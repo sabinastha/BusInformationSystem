@@ -14,87 +14,9 @@
 </head>
 <body>
 
-<header>
-  <!-- <div class="header-top">
-    <div class="container">
-      <div class="head-main text-center">
-        <a href="#">
-          <img src="/Bookstore/images/logo-1.png" alt="">
-        </a>
-      </div>
-    </div>
-  </div>-->
-  <div class="navig">
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header pull-left">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        
-        
-        
-        <div class="search-bar pull-right">
-              
-              <input type="text" class="" value='Search' onfocus="this.value='';" onblur="if(this.value=='')this.value='Search';" >
-              <span class="search-button">
-                <input type="submit" value=""/>
-              </span>
-        </div>
-           <div class="collapse navbar-collapse pull-right"  aria-hidden="true" id="myNavbar">
-          <ul class="nav navbar-nav">  
-            <li>
-              <a href="index4.html" class="active">Home</a>
-            </li>
-           
-             <li>
-              <a href="Search.jsp">Search Route</a>
-            </li>
-            <li>
-          
-              <a href="#">LogOut</a>
-            </li>
-            
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>  
-    </nav>
-    <ul class="media">
-          <li>
-            <a href="#">
-              <span class='fb'></span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class='twit'></span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class='pin'></span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class='rss'></span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class='drbl'></span>
-            </a>
-          </li>
-        </ul>
-  </div>
-</header>
-
+<jsp:include page="header.jsp"/>
+  
+    
 
 <!-- Banner -->
 <section name="banner">
@@ -105,10 +27,7 @@
       <div class="caption img-responsive" id="bannerText">
         <h2>Travel Everywhere</h2>
         <h1>Some beautiful paths can't be discovered without getting lost </h1>
-        <div class="btn btn-info">
-          <a href="#">Read more </a>      
-        </div>
-      </div>
+            </div>
       </div>
     </div>
  </div>  
@@ -132,7 +51,7 @@
             </a>
             <p>
               "Postey by "
-              <a href="#">Sabina</a>
+              <a href="#">Nist</a>
               "on 10 feb, 2018 "
               <a href="#"> comments(2) </a>
             </p>

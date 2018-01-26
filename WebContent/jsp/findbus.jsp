@@ -36,14 +36,11 @@
 
     out.print("<br>" + "<b>Destination:</b> " + cdname);
 
-    out.print("<table width=25% border=1>");
+    out.print("<table width=55% border=1>");
 
     out.print("<tr>");
 
-    out.print("<td>" + rsmd.getColumnName(1) + "</td>");
-
-    out.print("<td>" + rs.getInt(1) + "</td></tr>");
-
+ 
     out.print("<tr><td>" + rsmd.getColumnName(2) + "</td>");
 
     out.print("<td>" + rs.getString(2) + "</td></tr>");
